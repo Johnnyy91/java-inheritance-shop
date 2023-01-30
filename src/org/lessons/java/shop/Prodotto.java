@@ -60,10 +60,6 @@ public class Prodotto {
 		this.iva = iva;
 	}
 
-	public void setCodice(int codice) {
-		this.codice = codice;
-	}
-
 	public float getPrezzo() {
 		
 		return prezzo;
