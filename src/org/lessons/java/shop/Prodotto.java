@@ -44,6 +44,26 @@ public class Prodotto {
 		return codice;
 	}
 	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setDescrizione(String descrizione) {
+		this.descrizione = descrizione;
+	}
+
+	public void setPrezzo(float prezzo) {
+		this.prezzo = prezzo;
+	}
+
+	public void setIva(float iva) {
+		this.iva = iva;
+	}
+
+	public void setCodice(int codice) {
+		this.codice = codice;
+	}
+
 	public float getPrezzo() {
 		
 		return prezzo;
