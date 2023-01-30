@@ -10,6 +10,14 @@ public class Tv extends Prodotto{
 		this.proprietà = proprietà;
 	}
 	
+	public void setDimensione(double dimensione) {
+		this.dimensione = dimensione;
+	}
+
+	public void setProprietà(boolean proprietà) {
+		this.proprietà = proprietà;
+	}
+
 	public double getDimensione(){
 		return dimensione;
 		

@@ -13,6 +13,14 @@ public class Smartphone extends Prodotto{
 			return memoria;
 		}
 		
+		public void setMemoria(int memoria) {
+			this.memoria = memoria;
+		}
+
+		public void setiMeI(int iMeI) {
+			this.iMeI = iMeI;
+		}
+
 		public int getiMeI() {
 			return iMeI;
 		}
